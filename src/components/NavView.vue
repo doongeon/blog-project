@@ -7,7 +7,7 @@
       <RouterLink :to="{ name: 'home' }">홈</RouterLink>
       <RouterLink :to="{ name: 'posts' }">포스트</RouterLink>
     </div>
-    <RouterLink disabled :to="{ name: 'login' }">로그인</RouterLink>
+    <button disabled :to="{ name: 'login' }" class="opacity-50">로그인</button>
   </nav>
 </template>
 

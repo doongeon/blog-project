@@ -8,7 +8,7 @@
       <span>javascript, java 등의 주제를 직접 손으로 바닥부터 공부하자</span>
     </div>
   </div>
-  <div class="mx-auto max-w-2xl mt-12 lg:text-center">
+  <div class="mx-10 max-w-2xl mt-12 lg:text-center md:mx-auto">
     <p class="text-orange-700 font-bold text-sm">동건 스튜디오</p>
     <p class="text-4xl font-bold mt-3">"되는데, 이게 왜 되는 걸까요?"</p>
     <p class="mt-5">
@@ -18,15 +18,15 @@
       레벨 업 하기 위한 발판을 마련해요.
     </p>
   </div>
-  <div class="max-w-2xl mx-auto">
+  <div class="max-w-2xl mx-10 md:mx-auto">
     <div class="w-fit mx-auto my-24 rounded-md overflow-hidden shadow-lg">
       <img src="/js_meme.jpg" alt="js 밈" />
     </div>
   </div>
-  <div class="max-w-2xl mx-auto mt-12">
+  <div class="max-w-2xl mx-10 md:mx-auto mt-12">
     <TroubleList :trouble-list="troubleList" />
   </div>
-  <div class="max-w-2xl mx-auto mt-15 text-gray-600">
+  <div class="max-w-2xl mx-10 md:mx-auto mt-15 text-gray-600">
     <p class="font-bold text-black text-2xl">안녕하세요, 나동건입니다.</p>
     <p class="mt-5">현재 멀티켐퍼스에서 풀스택 개발자 교육받고 있습니다.</p>
     <p class="mt-5">주로 프론트엔드 개발 프로젝트를 해왔어요.</p>
